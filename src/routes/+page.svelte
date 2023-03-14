@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { MetaTags } from 'svelte-meta-tags';
 	import type { PageData } from './$types';
 	import type { Session } from '@supabase/supabase-js';
 
@@ -10,6 +11,8 @@
 		// loadData();
 	}
 </script>
+
+<MetaTags title="Example Title" description="Example Description." />
 
 <div class="navbar bg-base-100">
 	<div class="flex-1">
